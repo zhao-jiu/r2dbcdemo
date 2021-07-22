@@ -1,0 +1,12 @@
+
+### r2dbc
+spring:
+  r2dbc:
+    url: r2dbc:mysql://120.77.183.198:3306/r2dbc?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+    pool:
+      enabled: true
+      max-size: 10
+      initial-size: 10
+      validation-query: select 1
