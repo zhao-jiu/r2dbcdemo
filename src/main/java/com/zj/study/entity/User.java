@@ -5,7 +5,9 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
 /**
- * @author Administrator
+ * @author ZhaoJiu
+ * @since: 2021/7/22
+ * @desc: 用户实体类
  */
 @Table("user")
 @Data

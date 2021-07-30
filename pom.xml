@@ -18,10 +18,12 @@
     </properties>
 
     <dependencies>
+        <!-- lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <!-- r2dbc spring data-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-r2dbc</artifactId>
@@ -32,17 +34,22 @@
             <artifactId>r2dbc-mysql</artifactId>
             <version>0.8.2.RELEASE</version>
         </dependency>
-        <!-- 同时也会将r2dbc-pool导入 -->
+        <!-- r2dbc-pool -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-r2dbc</artifactId>
             <version>2.3.0.RELEASE</version>
         </dependency>
-
         <!-- webFlux -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-http</artifactId>
+            <version>5.7.5</version>
         </dependency>
     </dependencies>
 
